@@ -318,7 +318,7 @@ sudo systemctl enable --now grafana-server
 http://ip-address:3000
 ```
 #### Note if you use ec2 allow port 3000 in inbound rules 
-#### if you use linux/ubuntu allow 3000 (sudo ufw 3000)
+#### if you use linux/ubuntu allow 3000 (sudo ufw allow 3000)
 #### Default login:
 ```bash
 Username: admin
